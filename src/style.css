@@ -82,5 +82,12 @@ Do not delete any of the above code. */
     background-color: pink;
     color: blueviolet;
   }
+}
 
+/* styling for mobile */
+@media screen and (max-width:786px){
+  .light-box {
+    background-color:#3498db;
+    color: white;
+  }
 }
