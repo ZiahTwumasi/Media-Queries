@@ -91,3 +91,32 @@ Do not delete any of the above code. */
     color: white;
   }
 }
+/* C2 */
+.layout-wrapper{
+  display: flex;
+  gap: 20px;
+}
+
+.main-content{
+  background-color: bisque;
+  padding: 20px;
+  color:aliceblue;
+  text-shadow: 2px 2px 5px black
+}
+
+.sideabar{
+  background-color: #3498db;
+  padding: 20px;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  border-radius: 8px;
+}
+
+
+/* styling for tablets */
+@media screen and (max-width: 900px) {
+  .light-box{
+    background-color: blanchedalmond;
+  }
+}
+  
