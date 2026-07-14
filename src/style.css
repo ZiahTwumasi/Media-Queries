@@ -114,7 +114,7 @@ Do not delete any of the above code. */
 }
 
 
-/* C1styling for tablets */
+/* C1 styling for tablets */
 @media screen and (max-width: 900px) {
   .light-box{
     background-color: rgb(230, 147, 23);
@@ -127,11 +127,35 @@ Do not delete any of the above code. */
     background-color: #3498db;
     color: white;
   }
-}
 
-/* C2 styling for mobile */
-@media screen and (max-width: 786px) {
+  /* C2 styling for mobile */
   .layout-wrapper {
     flex-direction: column;
   }
+
+  .hamburger-icon {
+    display: block;
+  }
+
+  .nav-links {
+    display:none; 
+    background-color: rgb(175, 153, 231);
+    position: absolute;
+    top: 100%;
+    right: 0;
+    padding: 10px 0px;
+    width: 150px;
 }
+
+.nav-links li{
+  margin:10px 0px;
+}
+
+  .menu-container:hover .nav-links{
+    display:flex;
+    flex-direction: column;
+  }
+}
+
+
+
