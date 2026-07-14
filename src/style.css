@@ -91,10 +91,11 @@ Do not delete any of the above code. */
     color: white;
   }
 }
-/* C2 */
+/* C2 side by side view on desktop*/
 .layout-wrapper{
   display: flex;
   gap: 20px;
+  flex-direction: row;
 }
 
 .main-content{
@@ -104,8 +105,8 @@ Do not delete any of the above code. */
   text-shadow: 2px 2px 5px black
 }
 
-.sideabar{
-  background-color: #3498db;
+.sidebar{
+  background-color: #9fbfd3;
   padding: 20px;
   color: white;
   text-shadow: 2px 2px 5px black;
@@ -113,10 +114,24 @@ Do not delete any of the above code. */
 }
 
 
-/* styling for tablets */
+/* C1styling for tablets */
 @media screen and (max-width: 900px) {
   .light-box{
-    background-color: blanchedalmond;
+    background-color: rgb(230, 147, 23);
   }
 }
   
+/* C1 styling for mobile*/
+@media screen and (max-width: 786px) {
+  .light-box {
+    background-color: #3498db;
+    color: white;
+  }
+}
+
+/* C2 styling for mobile */
+@media screen and (max-width: 786px) {
+  .layout-wrapper {
+    flex-direction: column;
+  }
+}
